@@ -1,0 +1,26 @@
+{
+  "name": "react-edge-revealer",
+  "version": "1.0.0",
+  "description": "Reveals an element when the scroll is moved to the top or the bottom of the element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhunnapotha/react-edge-revealer.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "scroll",
+    "revealer",
+    "slider"
+  ],
+  "author": "Gautam Chandra <gautam4you@gmail.com> (http://www.theox.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhunnapotha/react-edge-revealer/issues"
+  },
+  "homepage": "https://github.com/dhunnapotha/react-edge-revealer#readme"
+}
