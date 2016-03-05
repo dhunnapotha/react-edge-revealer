@@ -2,7 +2,7 @@
   "name": "react-edge-revealer",
   "version": "1.0.0",
   "description": "Reveals an element when the scroll is moved to the top or the bottom of the element",
-  "main": "index.js",
+  "main": "edge-revealer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
