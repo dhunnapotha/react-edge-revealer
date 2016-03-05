@@ -10,14 +10,29 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
-  <script type="text/javascript" src="../edge-revealer.js"></script>
-
+  <script type="text/javascript" src="../edge-revealer-bundle.js"></script>
 
 
   <style>
 
   body {
     background-color: white;
+  }
+
+  .top-reveal{
+    color: black; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: violet;
+    width: 50%;
+  }
+
+
+  .filler{
+    background-color: pink;
+    height: '2500px';
+    width: 100%;
   }
 
   </style>
@@ -31,6 +46,34 @@
 
   <div id="container">
   </div>
+
+  <script type="text/babel">
+
+    var ExampleComponent = React.createClass({
+      render: function () {
+        <div className="example-component">
+          <EdgeRevealer from="top" height={100} >
+            <div className="top-reveal" >
+              Hi!!
+            </div>
+          </EdgeRevealer />
+
+
+          <div className="filler"/>
+
+          <EdgeRevealer from="top" height={100} >
+            <div className="bottom-reveal" >
+              Bye!!
+            </div>
+          </EdgeRevealer />
+
+
+        </div>
+      }
+    });
+
+    ReactDOM.render(React.createElement(ExampleComponent, {}), document.getElementById('container'));
+  </script>
 
 
 </body>

@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/dhunnapotha/react-edge-revealer/issues"
   },
-  "homepage": "https://github.com/dhunnapotha/react-edge-revealer#readme"
+  "homepage": "https://github.com/dhunnapotha/react-edge-revealer#readme",
+  "peerDependencies": {
+    "react-waypoint": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0"  
+  }  
 }
